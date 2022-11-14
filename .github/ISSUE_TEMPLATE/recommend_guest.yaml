@@ -28,6 +28,31 @@ body:
     validations:
       required: true
 
+  - type: dropdown
+    id: sex
+    attributes:
+      label: 嘉宾性别
+      description: 性别男/女
+      options:
+        - 男
+        - 女
+    validations:
+      required: true
+
+  - type: dropdown
+    id: lackynumber
+    attributes:
+      label: 幸运数
+      description: 选出你的幸运数
+      options:
+        - 1
+        - 2
+        - 3
+        - 5
+      multiple: true
+    validations:
+      required: true
+
   - type: input
     id: github
     attributes:
