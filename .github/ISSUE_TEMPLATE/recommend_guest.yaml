@@ -16,7 +16,7 @@ body:
     attributes:
       label: 栏目
       description: |
-        目前已有栏目 `个人成长系列`、`开源岗位系列`、`开源项目系列`、`番外篇`。
+        目前已有栏目 `个人成长系列` 、 `开源岗位系列` 、 `开源项目系列` 、 `番外篇`。
         最新栏目设置请移步 [访谈系列](https://github.com/opensource-f2f/episode#%E8%AE%BF%E8%B0%88%E7%B3%BB%E5%88%97) 查看。
     validations:
       required: true
