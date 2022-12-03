@@ -55,6 +55,35 @@ body:
       options:
         - label: 建议 [订阅《开源面对面》的邮件列表](mailto:osf2f+subscribe@googlegroups.com)（发送邮件被视为订阅），方便后续发送录制的会议邀请。
 
+  - type: checkboxes
+    id: cat-preferences
+    attributes:
+      label: What kinds of cats do you like?
+      description: You may select more than one.
+      options:
+        - label: Orange cat (required. Everyone likes orange cats.)
+          required: true
+        - label: **Black cat**
+ 
+ - type: dropdown
+    attributes:
+      label: dropdown
+      options:
+        - pppppp
+        - 8888888
+        - 66666
+        - 999
+      multiple: true
+
+  - type: dropdown
+    attributes:
+      label: dropdown
+      options:
+        - pppppp
+        - 8888888
+        - 66666
+        - 999
+
   - type: markdown
     attributes:
       value: |
