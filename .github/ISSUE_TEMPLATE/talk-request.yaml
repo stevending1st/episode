@@ -8,7 +8,6 @@ body:
       value: |
         姓名（花名）：xxx
         和主题相关的个人背景经历等，已经任何有助于主播（嘉宾）了解你的信息
-
   - type: input
     id: name
     attributes:
@@ -64,16 +63,16 @@ body:
         - label: Orange cat (required. Everyone likes orange cats.)
           required: true
         - label: **Black cat**
- 
- - type: dropdown
-   attributes:
-     label: dropdown
-     options:
-       - pppppp
-       - 8888888
-       - 66666
-       - 999
-     multiple: true
+
+  - type: dropdown
+    attributes:
+      label: dropdown
+      options:
+        - pppppp
+        - 8888888
+        - 66666
+        - 999
+      multiple: true
 
   - type: dropdown
     attributes:
@@ -88,5 +87,4 @@ body:
     attributes:
       value: |
         ### 注意
-
         我们不能保证您期望交流的主播、嘉宾一定能抽出时间来，或者方便针对您所提出的主题进行直播交流。
