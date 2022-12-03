@@ -66,14 +66,14 @@ body:
         - label: **Black cat**
  
  - type: dropdown
-    attributes:
-      label: dropdown
-      options:
-        - pppppp
-        - 8888888
-        - 66666
-        - 999
-      multiple: true
+   attributes:
+     label: dropdown
+     options:
+       - pppppp
+       - 8888888
+       - 66666
+       - 999
+     multiple: true
 
   - type: dropdown
     attributes:
