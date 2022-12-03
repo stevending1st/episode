@@ -65,6 +65,7 @@ body:
           required: true
 
   - type: dropdown
+    id: 99ooo
     attributes:
       label: dropdown
       options:
@@ -75,6 +76,7 @@ body:
       multiple: true
 
   - type: dropdown
+    id: 55599
     attributes:
       label: dropdown
       options:
